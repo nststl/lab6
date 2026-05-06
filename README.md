@@ -21,3 +21,8 @@
 `pytest -v tests/`
 
 Тести також автоматично запускаються при кожному коміті завдяки GitHub Actions (див. бейдж статусу зверху).
+
+## Оновлення github
+git add README.md
+git commit -m "Update README with Docker instructions and CI badge"
+git push
