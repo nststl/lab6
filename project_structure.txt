@@ -1,0 +1,25 @@
+library_project/
+├── src/
+│   ├── __init__.py
+│   ├── controllers/
+│   │   ├── __init__.py
+│   │   └── cli_controller.py
+│   ├── dto/
+│   │   ├── __init__.py
+│   │   └── library_dto.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── book.py
+│   │   └── user.py
+│   ├── repositories/
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   ├── book_repository.py
+│   │   └── user_repository.py
+│   └── services/
+│       ├── __init__.py
+│       └── library_service.py
+├── tests/
+│   ├── __init__.py
+│   └── test_library_service.py
+└── main.py  <-- (Створимо на кроці 2)

@@ -3,7 +3,7 @@ from src.repositories.book_repository import InMemoryBookRepository
 from src.repositories.user_repository import InMemoryUserRepository
 from src.services.library_service import LibraryService
 from src.controllers.cli_controller import LibraryCLIController
-from src.models.book import Book
+from src.models import Book
 
 
 def main():
